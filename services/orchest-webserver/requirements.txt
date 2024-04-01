@@ -42,7 +42,7 @@ entrypoints==0.4
     # via
     #   jupyter-client
     #   nbconvert
-eventlet==0.33.2
+eventlet==0.34.3
     # via -r requirements.in
 executing==1.2.0
     # via stack-data
