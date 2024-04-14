@@ -22,7 +22,7 @@ flask==2.1.0
     # via sanitized-package
 google-auth==2.6.2
     # via kubernetes
-idna==3.3
+idna==3.7
     # via requests
 itsdangerous==2.1.2
     # via flask
