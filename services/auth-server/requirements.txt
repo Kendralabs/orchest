@@ -38,7 +38,7 @@ flask-sqlalchemy==2.4.1
     #   flask-migrate
 greenlet==1.1.2
     # via sqlalchemy
-idna==3.3
+idna==3.7
     # via requests
 itsdangerous==2.0.1
     # via
