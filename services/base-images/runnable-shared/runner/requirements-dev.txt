@@ -54,7 +54,7 @@ flask==2.1.0
     # via
     #   -c requirements.txt
     #   orchest-internals
-idna==3.3
+idna==3.7
     # via
     #   -c requirements.txt
     #   requests
