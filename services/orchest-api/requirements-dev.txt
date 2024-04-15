@@ -86,7 +86,7 @@ google-auth==2.6.2
     # via kubernetes
 greenlet==1.1.2
     # via sqlalchemy
-idna==2.8
+idna==3.7
     # via
     #   requests
     #   yarl
