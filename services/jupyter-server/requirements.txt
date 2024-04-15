@@ -57,7 +57,7 @@ gitdb==4.0.9
     # via gitpython
 gitpython==3.1.27
     # via nbdime
-idna==3.3
+idna==3.7
     # via
     #   anyio
     #   requests
