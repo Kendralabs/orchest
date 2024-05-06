@@ -28,7 +28,7 @@ requests==2.27.1
     # via orchest-internals
 urllib3==1.26.9
     # via requests
-werkzeug==2.1.0
+werkzeug==3.0.3
     # via flask
 zipp==3.7.0
     # via importlib-metadata
