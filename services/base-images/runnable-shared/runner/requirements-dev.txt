@@ -241,7 +241,7 @@ webencodings==0.5.1
     # via
     #   -c requirements.txt
     #   bleach
-werkzeug==2.1.0
+werkzeug==3.0.3
     # via
     #   -c requirements.txt
     #   flask
