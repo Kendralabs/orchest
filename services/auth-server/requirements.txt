@@ -88,7 +88,7 @@ typing-extensions==4.4.0
     # via limits
 urllib3==1.26.9
     # via requests
-werkzeug==2.0.3
+werkzeug==3.0.3
     # via
     #   -r requirements.in
     #   flask
