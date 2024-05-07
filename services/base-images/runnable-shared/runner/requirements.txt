@@ -139,7 +139,7 @@ wcwidth==0.2.5
     # via prompt-toolkit
 webencodings==0.5.1
     # via bleach
-werkzeug==2.1.0
+werkzeug==3.0.3
     # via flask
 zipp==3.7.0
     # via importlib-metadata
