@@ -158,7 +158,7 @@ pyyaml==6.0
     #   -r requirements.in
     #   kubernetes
     #   orchest-cli
-requests==2.27.1
+requests==2.32.0
     # via
     #   -r requirements.in
     #   kubernetes
