@@ -48,7 +48,7 @@ posthog==1.4.7
     # via sanitized-package
 python-dateutil==2.8.2
     # via posthog
-requests==2.27.1
+requests==2.32.0
     # via
     #   posthog
     #   sanitized-package
