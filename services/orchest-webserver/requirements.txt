@@ -192,7 +192,7 @@ pytz-deprecation-shim==0.1.0.post0
     # via tzlocal
 pyzmq==24.0.1
     # via jupyter-client
-requests==2.28.1
+requests==2.32.0
     # via
     #   -r requirements.in
     #   posthog
