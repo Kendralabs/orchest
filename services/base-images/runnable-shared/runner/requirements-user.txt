@@ -4,3 +4,5 @@
 # see https://github.com/jupyter-widgets/ipywidgets/issues/3577
 ipywidgets>=7.0,<8
 -e ../../../../orchest-sdk/python/
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
