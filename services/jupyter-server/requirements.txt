@@ -109,7 +109,7 @@ jupyter-core==4.11.2
     #   nbconvert
     #   nbformat
     #   notebook
-jupyter-server==1.18.1
+jupyter-server==2.14.1
     # via
     #   jupyter-server-mathjax
     #   jupyterlab
@@ -267,7 +267,7 @@ terminado==0.15.0
     #   notebook
 tinycss2==1.1.1
     # via nbconvert
-tornado==6.2
+tornado==6.4.1
     # via
     #   ipykernel
     #   jupyter-client
