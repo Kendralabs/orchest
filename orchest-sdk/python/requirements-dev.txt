@@ -2,3 +2,4 @@ pandas
 pyarrow==7.0.0
 requests==2.22.0
 pytest
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
