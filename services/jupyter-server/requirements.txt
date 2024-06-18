@@ -291,7 +291,7 @@ traitlets==5.3.0
     #   nbconvert
     #   nbformat
     #   notebook
-urllib3==1.26.12
+urllib3==1.26.19
     # via requests
 wcwidth==0.2.5
     # via prompt-toolkit
