@@ -86,7 +86,7 @@ sqlalchemy-utils==0.37.4
     # via -r requirements.in
 typing-extensions==4.4.0
     # via limits
-urllib3==1.26.9
+urllib3==1.26.19
     # via requests
 werkzeug==2.0.3
     # via
