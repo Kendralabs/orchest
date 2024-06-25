@@ -6,7 +6,7 @@
 #
 -e file:../../lib/python/orchest-internals
     # via -r requirements.in
-anyio==3.6.1
+anyio==4.4.0
     # via jupyter-server
 argon2-cffi==21.3.0
     # via
