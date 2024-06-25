@@ -4,3 +4,4 @@
 # see https://github.com/jupyter-widgets/ipywidgets/issues/3577
 ipywidgets>=7.0,<8
 -e ../../../../orchest-sdk/python/
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
