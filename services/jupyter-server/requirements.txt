@@ -6,7 +6,7 @@
 #
 -e file:../../lib/python/orchest-internals
     # via -r requirements.in
-anyio==3.6.1
+anyio==4.4.0
     # via jupyter-server
 argon2-cffi==21.3.0
     # via
@@ -29,7 +29,7 @@ beautifulsoup4==4.11.1
     # via nbconvert
 bleach==5.0.1
     # via nbconvert
-certifi==2022.12.7
+certifi==2023.7.22
     # via requests
 cffi==1.15.1
     # via argon2-cffi-bindings
@@ -51,13 +51,13 @@ executing==1.0.0
     # via stack-data
 fastjsonschema==2.16.1
     # via nbformat
-flask==2.2.2
+flask==2.2.5
     # via sanitized-package
 gitdb==4.0.9
     # via gitpython
-gitpython==3.1.27
+gitpython==3.1.41
     # via nbdime
-idna==3.3
+idna==3.7
     # via
     #   anyio
     #   requests
@@ -65,7 +65,7 @@ ipykernel==6.15.2
     # via
     #   nbclassic
     #   notebook
-ipython==8.5.0
+ipython==8.10.0
     # via
     #   ipykernel
     #   jupyterlab
@@ -77,7 +77,7 @@ itsdangerous==2.1.2
     # via flask
 jedi==0.18.1
     # via ipython
-jinja2==3.1.2
+jinja2==3.1.4
     # via
     #   flask
     #   jupyter-server
@@ -109,7 +109,7 @@ jupyter-core==4.11.2
     #   nbconvert
     #   nbformat
     #   notebook
-jupyter-server==1.18.1
+jupyter-server==2.14.1
     # via
     #   jupyter-server-mathjax
     #   jupyterlab
@@ -120,7 +120,7 @@ jupyter-server==1.18.1
     #   notebook-shim
 jupyter-server-mathjax==0.2.6
     # via nbdime
-jupyterlab==3.4.6
+jupyterlab==3.6.7
     # via -r requirements.in
 jupyterlab-git==0.39.2
     # via -r requirements.in
@@ -213,7 +213,7 @@ pure-eval==0.2.2
     # via stack-data
 pycparser==2.21
     # via cffi
-pygments==2.13.0
+pygments==2.15.0
     # via
     #   ipython
     #   nbconvert
@@ -235,7 +235,7 @@ pyzmq==23.2.1
     #   jupyter-server
     #   nbclassic
     #   notebook
-requests==2.28.1
+requests==2.32.2
     # via
     #   jupyterlab-server
     #   nbdime
@@ -267,7 +267,7 @@ terminado==0.15.0
     #   notebook
 tinycss2==1.1.1
     # via nbconvert
-tornado==6.2
+tornado==6.4.1
     # via
     #   ipykernel
     #   jupyter-client
@@ -291,7 +291,7 @@ traitlets==5.3.0
     #   nbconvert
     #   nbformat
     #   notebook
-urllib3==1.26.12
+urllib3==1.26.19
     # via requests
 wcwidth==0.2.5
     # via prompt-toolkit
@@ -301,5 +301,6 @@ webencodings==0.5.1
     #   tinycss2
 websocket-client==1.4.1
     # via jupyter-server
-werkzeug==2.2.2
+werkzeug==3.0.3
     # via flask
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
