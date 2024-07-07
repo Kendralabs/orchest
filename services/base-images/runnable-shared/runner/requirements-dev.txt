@@ -21,7 +21,7 @@ bleach==4.1.0
     # via
     #   -c requirements.txt
     #   nbconvert
-certifi==2021.10.8
+certifi==2024.7.4
     # via
     #   -c requirements.txt
     #   requests
