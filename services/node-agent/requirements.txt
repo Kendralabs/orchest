@@ -18,7 +18,7 @@ attrs==21.4.0
     # via aiohttp
 backoff==1.11.1
     # via posthog
-certifi==2022.12.7
+certifi==2024.7.4
     # via requests
 chardet==3.0.4
     # via aiohttp
