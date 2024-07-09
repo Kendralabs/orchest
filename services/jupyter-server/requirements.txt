@@ -303,3 +303,4 @@ websocket-client==1.4.1
     # via jupyter-server
 werkzeug==2.2.2
     # via flask
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
